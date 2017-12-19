@@ -297,7 +297,7 @@ class Line(object):
         # We have already implemented this  __eq__  function for you.
         # Do NOT modify it.
         # --------------------------------------------------------------
-
+        return (self.start == line2.start) and (self.end == line2.end)
 
     def clone(self):
         """
