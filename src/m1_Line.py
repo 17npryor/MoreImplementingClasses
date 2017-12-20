@@ -329,7 +329,7 @@ class Line(object):
           :rtype: Line
         """
         # --------------------------------------------------------------
-        # TODO: 4.
+        # DONE: 4.
         #   a. READ the above specification, including the Example.
         #        ** ASK QUESTIONS AS NEEDED. **
         #        ** Be sure you understand it, ESPECIALLY the Example.
@@ -366,7 +366,7 @@ class Line(object):
             print(line1 == line2)    # Should now print: True
         """
         # --------------------------------------------------------------
-        # TODO: 5.
+        # DONE: 5.
         #   a. READ the above specification, including the Example.
         #        ** ASK QUESTIONS AS NEEDED. **
         #        ** Be sure you understand it, ESPECIALLY the Example.
@@ -375,9 +375,9 @@ class Line(object):
         #        They include the Example in the above doc-string.
         # --------------------------------------------------------------
 
-   #     start = self.start
-   #     self.start = self.end
-   #     self.end = start
+        start = self.start
+        self.start = self.end
+        self.end = start
 
     def slope(self):
         """
@@ -415,8 +415,8 @@ class Line(object):
         #        They include the Example in the above doc-string.
         # --------------------------------------------------------------
         #line1 = Line(p1,p2)
-       # line1.slope = (p2.y-p1.y)/(p2.x-p1.x)
-       # return line1.slope
+        #line1.slope = (p2.y-p1.y)/(p2.x-p1.x)
+        #return line1.slope
 
     def length(self):
         """
